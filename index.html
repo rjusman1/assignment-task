@@ -137,23 +137,23 @@
 
 <form id="signupForm" action="submit_form.php" method="POST">
 
-  <input type="radio" id="Say Hi" name="Say Hi" required>
+  <label for="username">Say Hi:</label><br>
+  <input type="radio" id="username" name="username" required>
 
   <label for="username">Get a Quote:</label><br>
-  <input type="radio" id="username" name="username" required>
+  <input type="radio" id="username" name="username" required><br>
 
   
   <label for="username">Username:</label><br>
-    <input type="text" id="Username" name="Username" required><br><br>
+    <input type="text" id="Username" name="Username" required><br>
 
     <label for="Email">Email</label><br>
     <input type="text" id="Email" name="Email" required><br><br>
 
-    input <textarea name="Message" id="#"></textarea>
+   <textarea name="Message" id="#"></textarea>
     
-   <input type="text" name="" id="">  
-    <button type="button" class="Send Message">Send Message</button>
 
+     <button type="button" class="btn btn-dark">Send Message</button>
 
 </body>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
